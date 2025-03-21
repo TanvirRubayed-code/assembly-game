@@ -1,0 +1,33 @@
+.word {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2px;
+}
+.word > span {
+    height: 40px;
+    width: 40px;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    border-bottom: 1px solid #f9f4da;
+    
+}
+.missed-letter {
+    color: #ec5d49;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+

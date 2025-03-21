@@ -1,0 +1,44 @@
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 450px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.keyboard > button {
+    height: 35px;
+    width: 35px;
+    background-color: #fcba29;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.keyboard > button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.reset-btn {
+    
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #2ED3E9;
+    border: 1px solid #f9f4da;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.keyboard > .correct {
+    background-color: #10a95b;
+}
+.keyboard > .wrong {
+    background-color: #ec5d49;
+}
